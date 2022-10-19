@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic elements -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- brower tab display -->
+    <title>Chris Petsche ~ Portfolio ~</title>
+
+    <!-- Links and extensions -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/fa0cbf6eab.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=El+Messiri|Kaushan+Script|Niconne|Open+Sans:800|Oregano|Philosopher|Teko|Quicksand&display=swap');
+    </style>
+
+    <!-- style sheets -->
+    <link rel="stylesheet" href="css/siteMainStyles.css">
+    <link rel="stylesheet" href="landingPageStyles.css">
+    <link rel="stylesheet" href="projectPageStyles.css">
+    <link rel="stylesheet" href="css/additionalFeatureStyles.css">
+    <link rel="stylesheet" href="css/glowButtonStyle.css">
+</head>
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- !!! page start !!! -->
+<body onload="InitializeFunctionsAndInteractions()">
+    
+    <!-- top of page button at lower right screen -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+    <!-- header: top of screen: start -->
+    <header id="header">
+        <div>
+            <div class="site-title-container">
+                <h1 class="site-title"><a href="portfolioLandingPage.html">Chris Petsche</a></h1>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <h5 class="siteTypeText">~ Portfolio ~</h5>
+            </div>
+        </div>
+    </header>
+    <!-- header: top of screen: end -->
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+    <!-- side profile at screen left: start -->
+    <div id="side-profile">
+        <div class="profile">
+            <img src="img/MFAGradPic.png" alt="" class="img-fluid rounded-circle">
+        </div>
+        <!-- Navigation menu-->
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="https://chrispetsche.github.io/portfolio" class="side-profile-btn neon-nav-button">Home</a></li>
+                <li><a href="#project-header" class="side-profile-btn neon-nav-button">Project Intro</a></li>
+                <li><a href="#project-description" class="side-profile-btn neon-nav-button">Project Description</a></li>
+                <li><a href="#contributions" class="side-profile-btn neon-nav-button">My Contributions</a></li>
+                <li><a href="#project-status-availability" class="side-profile-btn neon-nav-button">Status and Availability</a></li>
+                <li><a href="https://chrispetsche.github.io/portfolio/index.html#contact" class="side-profile-btn neon-nav-button">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- lower side profile -->
+        <div class="header-base">
+            <span>Site Created By <a href="#">Chris Petsche</a> ~ <span class="far fa-copywrite"></span> 2022 All rights reserved.</span>
+        </div>
+    </div>
+    <!-- side profile at screen left: end -->
+
+    <!-- main body content at screen right: start -->
+    <div class="pg-main-body">
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+        <!-- project intro section: start -->
+        <section class="project-header" id="project-header">
+            <div class="max-width">
+                <div class="project-header-content">
+                    <!-- image of refined title -->
+                    <div class="luckyStrikeDemo-projectTitle-img-container">
+                        <img id="project-header-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_ProjectLogo_Fitted.png" alt="">
+                    </div>
+                    <hr>
+                    <p class="project-header-text">A virtual experience created to become a tool to fulfill many purposes. 
+                        Such as a means of visually pitching redesign and update suggestions for various Lucky Strike Social 
+                        locations... or a new method for presenting potential offsite clients with a way of seeing venues without 
+                        actually visiting, just to name a couple. 
+                        <br> 
+                        <br> 
+                        Most of all, a project intented to assist a company I loved working for with their journey into the future!!!
+                    </p>  
+                    
+                </div>
+            </div>
+        </section>
+        <!-- project intro section: end -->
+
+<!-- -------------------------------------------------------------------------------------------------------- -->       
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+        <!-- project description section: start -->
+        <section class="project-description" id="project-description">
+            <div class="max-width">
+                <h2 class="title">Project description</h2>
+                <div class="project-description-content">
+                    <div class="project-text">
+                        <p>After completing grad school, the goal was to create my own studio and use what I'd shared in the thesis 
+                            that earned my masters degree as the foundation for doing so. While playing with a few concepts and 
+                            trying to settle on my first project, since I was free of the 2 and half year crunch on my thesis, the 
+                            assistant general manager at my day job knew I could model and created environments during my schooling and 
+                            came to me with a request.
+                            </p>
+                    </div>
+                    <!-- image of real world venue before -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_EinsteinRoomFromCDesk_RealWorld_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of real world venue before</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>The company was going through several changes at the time, and even though I was not part of management, 
+                            they always welcomed my ideas and treated me as if I were one of the management team. Naturally, when 
+                            you love someone or something you become passionate about making the world around that love better. The 
+                            people at Lucky Strike were like an extended part of my family. 
+                            </p>
+                    </div>
+                    <div class="column text-portion left">
+                        <p>So, when the AGM came asking for ideas on how to pretty up a particularly ugly wall and try making it a focal 
+                            point rather than an eye sore, I dove in head over heels.
+                            </p>
+                    </div>
+                    <!-- image of Einstein mural wall after -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_VRStationRedesign_Fitted2.png" alt="">
+                        <div class="project-caption-description">image above of Einstein mural wall with in-engine updates </div>
+                    </div>
+                    <div class="project-text">
+                        <p>From there, redesigning a single wall quickly turned into redesigning an adjacent room. A room grew to the entire venue. 
+                            Very soon, it blew up into a multi-purpose virtual tour, and is still my largest project to date.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- project description section: end -->
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+        <!-- my contributions section: start -->
+        <section class="contributions" id="contributions">
+            <div class="max-width">
+                <h2 class="title">My contributions</h2>
+                <div class="contributions-description-content">
+
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+                    <!-- pre-dev contributions -->
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">Pre-Development</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <p>The project was done completely solo, and went through a few stages that spand a little more than 2 years. 
+                            Partly due to sometimes enjoying precision a bit more than most. But this project, needing a scale model of 
+                            the whole venue and everything it contained, was all about detail. And, that made it a perfect fit for my 
+                            creative drive. 
+                            </p>
+                    </div>
+                    <!-- image of venue floor map -->
+                    <div class="project-image">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_RealWorldFloorMap_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of real world venue floor map</div>
+                    </div>
+                    
+                    <!-- galleries of asset measurements -->
+                    <div class="column thumbnail-image-gallery-portion left">
+                        <div class="sub-column">
+                            <div class="gallery-starter-thumbnail thumbnail-image" id="LSVirtualTour_PreDev_Gallery1_Left1_ThumbnailID" onclick="changeGalleryThumbnail('#LSVirtualTour_PreDev_Gallery1_Left1_ThumbnailID')">
+                                <img id="LSVirtualTour_PreDev_Gallery1_thumbnailImg1" src="" alt="">                                   
+                            </div>
+                        </div>
+                        <div class="sub-column">
+                            <div class="thumbnail-image" id="LSVirtualTour_PreDev_Gallery1_Left2_ThumbnailID" onclick="changeGalleryThumbnail('#LSVirtualTour_PreDev_Gallery1_Left2_ThumbnailID')">
+                                <img id="LSVirtualTour_PreDev_Gallery1_thumbnailImg2" src="" alt="">                                   
+                            </div>
+                        </div>
+                        <div class="sub-column">
+                            <div class="thumbnail-image" id="LSVirtualTour_PreDev_Gallery1_Left3_ThumbnailID" onclick="changeGalleryThumbnail('#LSVirtualTour_PreDev_Gallery1_Left3_ThumbnailID')">
+                                <img id="LSVirtualTour_PreDev_Gallery1_thumbnailImg3" src="" alt="">                                   
+                            </div>
+                        </div>
+                        <p>To make such a detailed model to scale, part of each day was spent making lists of assets, drawing a map 
+                            of each asset from different angles and figuring out how to best measure them. Ranging from the large 
+                            simple structural pieces, down to the salt and pepper shakers, everything in the venue was taken into 
+                            account even if it may not have made it into the final build.
+                            </p>
+                    </div>
+                    <div class="column image-portion right">
+                        <img id="LSVirtualTour_PreDev_Gallery1-DisplayID" src="" alt="">
+                        <div class="project-caption-description" id="LSVirtualTour_PreDev_Gallery1-Text"></div>
+                    </div>
+
+                    <!-- image of small asset measurements -->
+                    <div class="column image-portion left">
+                        <img id="LSVirtualTour_PreDev_Gallery2-Display" src="" alt="">
+                        <div class="project-caption-description" id="LSVirtualTour_PreDev_Gallery2-Text"></div>
+                    </div>
+                    <div class="column thumbnail-image-gallery-portion right">
+                        <div class="sub-column">
+                            <div class="gallery-starter-thumbnail thumbnail-image" id="LSVirtualTour_PreDev_Gallery2_Right1" onclick="changeGalleryThumbnail('#LSVirtualTour_PreDev_Gallery2_Right1')">
+                                <img id="LSVirtualTour_PreDev_Gallery2_thumbnailImg1" src="" alt="">                                   
+                            </div>
+                        </div>
+                        <div class="sub-column">
+                            <div class="thumbnail-image" id="LSVirtualTour_PreDev_Gallery2_Right2" onclick="changeGalleryThumbnail('#LSVirtualTour_PreDev_Gallery2_Right2')">
+                                <img id="LSVirtualTour_PreDev_Gallery2_thumbnailImg2" src="" alt="">                                   
+                            </div>
+                        </div>
+                        <div class="sub-column">
+                            <div class="thumbnail-image" id="LSVirtualTour_PreDev_Gallery2_Right3"  onclick="changeGalleryThumbnail('#LSVirtualTour_PreDev_Gallery2_Right3')">
+                                <img id="LSVirtualTour_PreDev_Gallery2_thumbnailImg3" src="" alt="">                                   
+                            </div>
+                        </div>
+                        <p>Then, using the drawings as a guide, each asset was meticulously measured down to an 1/8th inch of being 
+                            perfectly accurate.
+                            </p>
+                    </div>
+
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+                    <!-- 3D moddeling contributions -->
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">3D Modeling</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <p>Before stopping the project, the count was at 250 models that had been created and exported from Maya. In 
+                            several cases, 2 versions were produced to suit both the VR close-up and distant views, including a reduced 
+                            scale version for the WebGL portion of the project. A select few, shown in the gallery below, are broken down 
+                            by the room they belong to.
+                            </p>
+                    </div>
+        <!-- ------------------------------- -->
+        <div class="project-image">
+            <img id="gallery-display-detailedCenter" src="" alt="">
+            <div class="project-caption-description" id="-gallery-text-detailedCenter"></div>
+        </div>
+        <div class="detailedGallery-thumbnailSlide-number-block">
+            <button class="thumbnail-slide-button" onclick="callTo_adjustSlideFor_currentDetailedGalleryThumbnail('gallery-display-detailedCenter','down')"><<</button>
+            <span class="thumbnail-slide-number" id="-thumbnail-slide-number"></span>
+            <button class="thumbnail-slide-button" onclick="callTo_adjustSlideFor_currentDetailedGalleryThumbnail('gallery-display-detailedCenter','up')">>></button>
+         </div>
+
+         <div class="project-text">
+            <div class="contribution-piece-title">
+                <h4 id="-gallery-image-description-detailedCenter-contribution-piece-title"></h4>
+            </div>
+        </div>
+        <div class="project-text">
+            <p id="-gallery-image-description-detailedCenter">
+                </p>
+        </div>
+
+        <div class="centered-thumbnail-image-gallery-block">
+
+            <div class="gallery-starter-thumbnail thumbnail-column" id="luckyGallery_Thumbnail1" onclick="changeGalleryThumbnail('#luckyGallery_Thumbnail1')">
+                <img id="_thumbnailImg1" src="" alt="">                                 
+            </div>
+            <div class="thumbnail-column" id="luckyGallery_Thumbnail2" onclick="changeGalleryThumbnail('#luckyGallery_Thumbnail2')">
+                <img id="_thumbnailImg2" src="" alt="">                                   
+            </div>
+            <div class="thumbnail-column" id="luckyGallery_Thumbnail3" onclick="changeGalleryThumbnail('#luckyGallery_Thumbnail3')">
+                <img id="_thumbnailImg3" src="" alt="">                                   
+            </div>
+            <div class="thumbnail-column" id="luckyGallery_Thumbnail4" onclick="changeGalleryThumbnail('#luckyGallery_Thumbnail4')">
+                <img id="_thumbnailImg4" src="" alt="">                                   
+            </div>
+            <div class="thumbnail-column" id="luckyGallery_Thumbnail5" onclick="changeGalleryThumbnail('#luckyGallery_Thumbnail5')">
+                <img id="_thumbnailImg5" src="" alt="">                                   
+            </div>
+            <div class="thumbnail-column" id="luckyGallery_Thumbnail6" onclick="changeGalleryThumbnail('#luckyGallery_Thumbnail6')">
+                <img id="_thumbnailImg6" src="" alt="">                                   
+            </div>
+        </div>            
+
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+                    <!-- lighting contributions -->
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">Lighting</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <p>Once the bulk of the assets had been taken into Unity and placed, lighting the virtual venue started adding 
+                            to the excitement of the build. And to be honest was relatively simple to set up using 2 features Unity has 
+                            made better and more user friendly over the years.
+                            </p>
+                    </div>
+        <!-- ------------------------------- -->
+                    <!-- basic lighting -->
+                    <div class="column text-portion left">
+                        <div class="project-text">
+                            <div class="contribution-piece-title">
+                                <h4>Basic Lighting</h4>
+                            </div>
+                        </div>
+                        <p>With the exception of a few recessed ceiling lights and hanging lamps, the majority of the lighting in the 
+                            real world venue was done by using rail lights that hung from the ceiling. Each rail held several 
+                            spotlights that could be angled almost any direction.
+                            </p>
+                    </div>
+                    <!-- image of old rail lights -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_OGTrackLighting_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of old style large white rail lights</div>
+                    </div>
+                    <!-- image of in-engine rail light -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_In-engineTrackLighting_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of in-engine updated rail light setup</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>Since the project was to display suggested updates, the only thing that changed was the styling. When the 
+                            models were imported and assembled in-engine, a prefab was created that had a Unity spotlight attached. 
+                            With the model built to have pivot points like the real world version, they too could be angled any 
+                            direction. 
+                            </p>
+                            <br>
+                        <p>After the light map was set up and baked in, these worked very well in combination with the ambient moon 
+                            light coming in from the large windows along the east and south side of the building. 
+                            </p>
+                    </div>
+
+        <!-- ------------------------------- -->
+                    <!-- effects lighting -->
+                    <div class="project-text">
+                        <div class="contribution-piece-title">
+                            <h4>Effects Lighting</h4>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <p>The second Unity feature I loved using to develop this project was its post processing effects. Some being 
+                            baked, and others left to run in real-time, dramatically added to the look and feel of the design. Plus, 
+                            they are alot of fun to play with reguardless of the project they are in!
+                            </p>
+                    </div>
+                    <!-- image of in-engine rail light -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_BloomLightingEffects_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of in-engine bloom effects used</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>The effect enjoyed the most would have to be the Bloom when applying the emission element of an assets 
+                            material. Causing it to have that nice fuzzy glow effect that real world lights typically have around 
+                            them, based on how bright they are and their immediate environment.
+                            </p>
+                            <br>
+                        <p>This was used on all the lights, but emphasized most at both the dining and Einstein bars, as well as around 
+                            the large window that allowed guests to look out across the bowling lanes from the Einstein Room. Each 
+                            explained more in the Remodel Design section of the contribtions.
+                            </p>
+                    </div>
+                    <!-- image of ambient occlusion and vignette effects -->
+                    <div class="project-image">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_AmbientOCAndVignetteEffects_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of example in-engine ambient occlusion and vignette effects use</div>
+                    </div>
+                    <div class="project-text">
+                        <p>Other effects used in the post processing that brought an added layer of depth to the lighting, was the 
+                            ambient occlusion and the vignette. Both sharped the natural looking shadows found in places that connect 
+                            one asset to another, like  wall seams and corners, of which the venue obviously had many. 
+                            </p>
+                    </div>
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+                    <!-- level design contributions -->
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">UI/UX Design</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <p>After building out a large portion of the virtual venue, the 'touring' side of the project needed to be 
+                            fulfilled. The first step to this was designing a way of interfacing with the experience in both the VR 
+                            and WebGL builds. And using Unitys world-space UI canvas setup worked great for a semi-directed and 
+                            semi-interactive experience such as this. 
+                            </p>
+                    </div>
+        <!-- ------------------------------- -->
+                    <!-- tour presentation panel design -->
+                    <!-- image of in-engine welcome presentation panel -->
+                    <div class="column image-portion left">
+                        <div class="contribution-piece-title">
+                            <h4>Tour Guide and Presentation Panels</h4>
+                        </div>
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_OpeningScreen_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of in-engine welcome presentation panel</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>A series of presentation panels containing up to 3 elements were designed. As seen in the first image of 
+                            this contribution that starts off the tour, it contains a message welcoming the viewer/ guest to the 
+                            location of the venue they are taking the tour of. And it wouldn't be much of tour without a guide. 
+                            </p>
+                    </div>
+        <!-- ------------------------------- -->
+                    <div class="column text-portion left">
+                        <p>The demo being done with a nicely outlined butler like silohette that would gesture at things as it spoke. 
+                            For the full version an actor or even a real sales team memeber would replace the butler for the web version,
+                            and short greenscreened videos that would definitely enhance the experience in the VR. 
+                            </p>
+                    </div>
+                    <!-- image of presentation panel with buttons -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_In-EngineUIExample_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of in-engine pause point presentation panel</div>
+                    </div>
+                    <div class="project-text">
+                        <p>The message area functioned as both a caption/ subtitling system for the guide speaking to the viewer as 
+                            the tour moved about the venue, as well as a display for other important information the guide might not 
+                            cover. Things that would make the tour drag on forever, and may not be important to everyone. Like reading 
+                            off every cocktail on the bar menu for a childs party hosted by a convent of nuns.
+                            </p>
+                            <br>
+                        <p>But, using the third element of the presentation panels allowed the viewer to interact with the tour by 
+                            giving them buttons that opened menus, answered frequently asked questions and gave them nagivational choices. 
+                            Like which pause point to move to.
+                            </p>
+                    </div>
+
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+                    <!-- level design contributions -->
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">Level Design</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <p>To complete the design of the tour, something similar to a games level design that moves players through 
+                            the environment was needed. A path laid out to get the viewer from the front of the venue to the back, 
+                            as well as what to display and when.
+                            </p>
+                    </div>
+        <!-- ------------------------------- -->
+                    <!-- tour path design -->
+                    <!-- image of in-engine rough tour map -->
+                    <div class="column image-portion left">
+                        <div class="contribution-piece-title">
+                            <h4>Tour Path</h4>
+                        </div>
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_In-EngineTourMap_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of in-engine rough tour map</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>Being that the sales team already had a basic path they used to show the real world version everyday, and 
+                            the project would be an aid to them in the field after completion, it was just a matter of adapting one 
+                            version to the other.
+                            </p>
+                    </div>
+                    <div class="project-text">
+                        <p>The path would of course start at the front doors and then wind left and right back to the private room. 
+                            The guide and messaging would be the only elements displayed as the tour was in motion, with the camera 
+                            being animated to follow the guide as they talked about things along the way. At specific points, as shown 
+                            in the tour map, the guide would pause its movement, finish its presentation of that section and give the 
+                            viewer some options to select from, as explained in the UI/UX section. 
+                            </p>
+                            <br>
+                        <p>The option they had to select for the tour to continue was one of the navigation choices that consisted of a 
+                            "Continue", "Back", or "Select Point" that opened a map similar to the one above that let the viewer 
+                            skip around to any part of the tour they wished, with a fading out and in teleportation effect.
+                            </p>
+                            <br>
+                        <p>And with the viewer only changing from a potential client to a staff member, the same path and basic events 
+                            setup could also be used to show off the remodel suggestions. Completing all the purposes of the project.
+                            </p>
+                    </div>
+
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+                    <!-- remodeling contributions -->
+                    <div class="contribution-type">
+                        <div>
+                            <h3 class="contribution-type-text">Remodel Design</h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <p>Many of the designs shown in the images and videos throughout this project came from a repetitive process, 
+                            that aimed to fit within the scope of having a modern industrial theme with a techy vibe to it. Something 
+                            that presented itself as being up-to-date San Francisco. But also something that wasn't just aesthetic. It 
+                            was also functional. One of my favorite types of design!
+                            </p>
+                            <br>
+                        <p>The design process involved creating quick versions of an in-engine build that could be shared with 
+                            fellow staff members, management and non-management. Gather several thoughts, opinions and even further 
+                            specific requests from management at varying levels. Then, taking all that and fuse it into another build that 
+                            was again shared for the feedback.
+                            </p>
+                    </div>
+
+        <!-- ------------------------------- -->
+                    <!-- step and repeat element -->
+                    <div class="column text-portion left">
+                        <div class="contribution-piece-title">
+                            <h4>Step and Repeat Wall</h4>
+                        </div>
+                        <p>The design for the wall that started it all seemed straight forward to me. The wall ran parallel to the walls 
+                            that gave the bowling section its length, and faced the same way as the backdrop that gave the lanes their 
+                            visual appeal above the pins. 
+                            </p>
+                        <p>Extending what already existed the rest of the way down the wall connected the once very separate areas. 
+                            The greyish-white around the black x pattern played in well with the white floors of the Einstein Room 
+                            that had black highlights in it. And made the Control Desk, where you go to bowl or play games, stand out 
+                            more. Expressing it as the obvious hub for both areas as it should have been from the beginning.
+                            </p>
+                    </div>
+                    <!-- image of wallpaper wall before the project stopped entirely -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_StepAndRepeatRedesign_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of wall with step and repeat designs applied in unity</div>
+                    </div>
+                    <div class="project-text">
+                        <p>Another part of the design came from the backdrop only coming 2/3 of the way down the wall. The remaining 
+                            portion could be painted a flat black like the Einstein had and would also be expanding on. This is where 
+                            the functional part plays in. 
+                            </p>
+                            <br>
+                        <p>Lucky Strike is known for their parties. It's also one of their largest revenue streams. From small family fun 
+                            days, to massive things like hosting Super Bowl 50 where set up took over a month to complete. Small or massive, 
+                            this particular wall was used for different table setups and of course taking pictures in front of the step and 
+                            repeat background that was to be featured there. With that meant the lower section got hit alot, which left 
+                            holes far more often than would be preferred.
+                            </p>
+                        <p>With having only the bottom that needed to be painted verses the entire wall, maintaining its clean and 
+                            high quality appears became dramatically easier. A function I aimed to apply throughout the entire venue.
+                            </p>
+                    </div>
+
+
+        <!-- ------------------------------- -->
+                    <!-- eistein area -->
+                    <div class="contribution-piece-title">
+                        <h4>Einstein Room</h4>
+                    </div>
+                    <div class="project-text">
+                        <p>Even though the request to redesign the step and repeat wall was technically what started the project, it 
+                            was being able to redesign a room that was named after one of my personal historic heros that shoved it 
+                            toward what it ended up being. Every Lucky Strike venue at the time had a unique theme to it. And Albert 
+                            Einstein was a part of San Francisco. 
+                            </p>
+                    </div>
+                    <!-- image of einstein room from control desk entrance -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_RealWorldEinstein_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of einstein room as it was</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>The orignal design of the room was very plain and only had a single mural on a single wall despite the whole 
+                            room being named after him. And it really didn't show the genius that his work obviously was. So I set out 
+                            to display his life on all the surfaces that would hold something worth admiring for a while, including the 
+                            ceiling.
+                            </p>
+                    </div>
+                    <div class="project-text">
+                        <p>Before getting too far with alot of detail, let me point out that with this room extending from the dining room, and its 
+                            high ceilings, all glass store front that pointed toward the southern sun all day, and both rooms bathed in bright white, 
+                            the space felt glaring from certain perspectives or washed out and hidden from others.
+                            </p>
+                            <br>
+                        <p>The idea to immediately make the room stand out from the rest was to apply a direct color contrast by 
+                            expanding the flat black of the original Einstein mural to all the walls and the ceiling, as mentioned above.
+                            With the right lighting, especially at night when they dim the overhead lights and the venue holds more of a night 
+                            club vibe, you can't help but gravite toward the room and want to hangout even without all the art and features 
+                            shown below.
+                            </p>
+                    </div>
+                    <!-- image of einstein room map -->
+                    <div class="project-image">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_In-EngineEinsteinFloorMap_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of einstein room in-engine floor map</div>
+                    </div>
+                    <div class="project-text">
+                        <p>The room was then broken down into sections. Each having a different function and its own piece of art. Some 
+                            very simple, and others detailed enough that you might catch yourself staring at for a while.
+                            </p>
+                            <br>
+                        <p>Starting with the largest canvas in the room, the ceiling. Einstein did several great things. But the 2 that 
+                            we really know him for, the theories of relativity, need the space to even attempt a meaningful depiction 
+                            of something so beautiful. The images below show the rough concepts of what was to be a massive mural 
+                            containing both on the left, and on the right placeholder images used in Unity for testing placement and 
+                            scale.
+                            </p>
+                    </div>
+                    <!-- image of ceiling rough designs -->
+                    <div class="column double-image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_EinsteinCeiling_GeneralRelRoughDesigns_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of rough ceiling art designs for general relativity</div>
+                    </div>
+                    <!-- image of ceiling uv placeholders -->
+                    <div class="column double-image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_EinsteinCeilingDesignsPlaceholders_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of ceiling art placeholders</div>
+                    </div>
+                    <div class="project-text">
+                        <p>The half of the ceiling coming in from the control desk was meant to have a visual representation of Special 
+                            Relativity, expressing the fusion process occuring in stars throughout the universe. The first of the world 
+                            changing theories known by the famous, E=MC^2.
+                            </p>
+                            <br>
+                        <p>On other half of the ceiling closer to the original mural wall shows General Relativity, the dualities and 
+                            relationships of spacetime along with energy and matter.
+                            </p>
+                    </div>
+                    <!-- image of young Albert wall aften in-engine design -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_YoungEinsteinRedesign_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of young albert wall with in-engine <br> design and lighting applied</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>To keep things from getting too overwhelming by plastering dynamic images everywhere, another concept came 
+                            to mind that felt interesting if the viewer caught onto it. 
+                            </p>
+                            <br>
+                        <p>On the Specialy Relativity side, a photo of young Albert with his birth and death dates.
+                            </p>
+                    </div>
+                    <!-- image of old Einstein wall aften in-engine design -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_OldEinsteinRedesign_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of old eistein wall after in-engine <br> design and lighting applied</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>On the opposite side, a photo of old Einstein before he passed. And the two, old and young, looking at each 
+                            other. Literally and metaphorically gazing across space and time, and his accomplishments. 
+                            </p>
+                    </div>
+                    <div class="project-text">
+                        <p>The back wall, opposite the dining room, was primarily consumed by a long glass window that looked out over 
+                            the lanes with a narrow wall bar beneath it. Like every other part of this room, most people never noticed 
+                            the window until it was right in from of them. 
+                            </p>
+                            <br>
+                        <p>Along with it being surrounded by the flat black color, the fix here was to outline the glass with a bead of 
+                            lights. Tuned to the right color and level of illumination, this created an appealing transition point. 
+                            Helping to highlight features of the bowling alley on other side, like the "Lucky Strike" sign at the far 
+                            end. Resulting in the viewer being pulled through the venue just by giving them an interesting way of realizing 
+                            there was more to it.
+                            </p>
+                    </div>
+                    <!-- image of glass wall -->
+                    <div class="project-image">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_EinsteinGlassWall3_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of glass wall</div>
+                    </div>
+                    <div class="project-text">
+                        <p>On either side of the window was space enough for 2 final pieces of art that finished bringing it all 
+                            together. Both simple, yet still very important to the overall tribute. Looking at the wealth of knowledge 
+                            Albert discovered for us with his huge personality and imagination, as well as parts of his ealier life that is never credited enough.
+                            </p>
+                            <br>
+                        <p>The first, on the left side of the window, next to the old mural wall and beneath the General Relativity. 
+                            Even though the image is simple, it was meant to contain a few things. 
+                            </p>
+                            <br>
+                        <p>The most obvious is something most don't know he did. Of the small handful of instruments he played, guitar 
+                            was one of them. Even though he was better at piano, and more so with the violin, this image seemed to carry 
+                            more of the chilled vibe. With him kicked back, strumming out a tune in his flat cap. Very much what the 
+                            venue was being designed around. 
+                            </p>
+                    </div>
+                    <div class="column text-portion left">
+                        <p>The second part was a little something I wrote toward his work final and unfinished discovery that attempted to 
+                            connect the biggest of the big, with the smallest of the small. 
+                            </p>
+                        <div class="project-caption-description">
+                            "Before his departure, combine all the forces of nature into a single simple explaination of Everything, 
+                            called... <br> Unified Field Theory"
+                        </div>
+                        <div class="project-caption-description">
+                            "This explaination would have shown many things, but above all..."
+                        </div>
+                        <div class="project-caption-description">
+                            "At our most fundamental, we are all the sum of a single point in Forever, acting simultaneously as a wave, 
+                            particle and field, while vibrating in every possible direction of space and time, all at once!"
+                        </div>
+                    </div>
+                    <!-- image of Einsteins final theory wall aften in-engine design -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_EinsteinFinalWork2Redesign_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of einsteins final theory wall with in-engine <br> design and lighting applied</div>
+                    </div>
+                    <div class="project-text">
+                        <p>With that comes that last part of the image design. If you notice, a string extending to from the 
+                            guitart to the ceiling. The final rendering here would have had the string being strummed with a wave in it, 
+                            of course moving out across the neck. In the section between the guitar and ceiling, its partical form 
+                            would be displayed. And from there the string would be connected to the gravitational field shown with the 
+                            finished General Relativity piece on the ceiling.
+                            </p>
+                    </div>
+                    <div class="column text-portion left">
+                        <p>For the final piece of art in the room, a tribute to a very under credited individual that may have been the 
+                            one to direct Einsteins brillance toward what it became. A brilliant individual herself, but held back by 
+                            timing and being a woman.
+                            </p>
+                            <br>
+                        <p>Mileva Maric - Einstein was not only his first wife, but a large contributor in the discoveries that added 
+                            up to Special Relativity.
+                            </p>
+                            <br>
+                        <p>So, on the right side of the window and below the mural she had part in producing, a simple image and a message of 
+                            recognition for the sadly unknown role she had in helping reshape the world for individuals like her.
+                            </p>
+                    </div>
+                    <!-- image of tribute to Mileva wall aften in-engine design -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_MilevaTribute_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of tribute to mileva einstein wall with in-engine <br> design and lighting applied</div>
+                    </div>
+                    <div class="project-text">
+                        <p>To top off the room, beyond the art and lighting, one more aspect needed to be fulfilled. It was referred to 
+                            as a gaming lounge that consisted of a set of pool tables, a trivia machine and prize/crane machine, along 
+                            with a 4 player PacMan. Personally, that barely qualified as a gaming anything.
+                            </p>
+                    </div>
+                    <!-- image of vr station map -->
+                    <div class="project-image">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_In-EngineEinsteinGamingMap_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of gaming map</div>
+                    </div>
+                    <div class="project-text">
+                        <p>Removing 2 very outdated machines and installing a select few modular arcade cabinets using the map shown, would have not 
+                            only kept a balanced mix of game types for the diverse crowds of San Francisco, it would have justified the name of the room 
+                            and its functional title. Then, putting together some next generation multi-purpose VR mods and gaming stations would have 
+                            taken the space to a whole other level.
+                            </p>
+                    </div>
+                    <!-- image of vr station design -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_VRStationRedesign_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of multi-purpose gaming stations</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>In replace of the old trivia machine, that almost consumed the entire wall that had anything to do with 
+                            Einstein, the general manager of the store had a request to go along with my suggestion of bringing VR into 
+                            the venue. 
+                            </p>
+                            <br>
+                        <p>Several TVs were being added everywhere, as we showed many sporting events and more. So he 
+                            actually wanted a mega-tv to be placed there that was made up of 4 large individual screens that could be 
+                            synced to show events on a single mass screen, or sell game time per screen that was linked to a Playstation 
+                            or XBox in the cabinet below it.
+                            </p>
+                    </div>
+                    <div class="project-text">
+                        <p>The VR mods would work the same. By renting them in time slots. But they could also be moved around easily 
+                            enough that they didn't have to stay in the one room all the time, or even in the venue. Parties could 
+                            rent all the mods and have them set up in the private room for their party members to use as they wish.
+                            </p>
+                    </div>
+                    <!-- image of VR mod -->
+                    <div class="column image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_VRStationRemodelSection_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of custom designed vr station module: pc casing</div>
+                    </div>
+                    <div class="column text-portion right">
+                        <p>And at least 1 mod would be loaded with this and other Lucky Strike tours that the sales teams would have 
+                            taken to different presentation, conventions and so on to show off each location while being immersed in it.
+                            </p>
+                    </div>
+
+        <!-- ------------------------------- -->
+                    <!-- dining area -->
+                    <div class="contribution-piece-title">
+                        <h4>Dining Room</h4>
+                    </div>
+                    <div class="project-text">
+                        <p>The dining room was next up for a major updated. Mentioned above, it too was completely saturated in white. 
+                            There was some styling to it. But it was a mix of things that didn't clash well, or fit the intended 
+                            design for the venue as a whole, as seen in the images that follow.
+                            </p>
+                    </div>
+                    <!-- image of east dining room before -->
+                    <div class="column double-image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_RealWorldDiningRoomEast_Fitted.png" alt="">
+                        <div class="project-caption-description">image above east side of dining room as it was</div>
+                    </div>
+                    <!-- image of west dining room before -->
+                    <div class="column double-image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_RealWorldDiningRoomWest_Fitted.png" alt="">
+                        <div class="project-caption-description">image above west side of dining room as it was</div>
+                    </div>
+                    <div class="project-text">
+                        <p>The solution here was taking a couple things that had already been employed in the two previous areas and 
+                            using the modern industrial colors to start the updating process.
+                            </p>
+                    </div>
+                    <div class="column text-portion left">
+                        <p>From the ceiling down the greatest portion of the walls and pillars could remain white. Helping to create a 
+                            clean and open feeling with the ceilling being so high, in addition to helping bounce light around the room, 
+                            especially at night.
+                            </p>
+                            <br>
+                        <p>Equal to the height of the half wall in the Einstein Room, a piece of wood trim stained to the same shade as 
+                            the wood on the half wall, would have been placed around all the walls and pillars to separate them into upper 
+                            and lower sections. Then everything in the lower would become a passive grey. 
+                            </p>
+                    </div>
+                    <!-- image of dining room from mechanic room with in-engine design and lighting applied  -->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_In-EngineWestDining_Fitted.png" alt="">
+                        <div class="project-caption-description">image above west dining room with in-engine <br> design and lighting applied</div>
+                    </div>
+                    <div class="project-text">
+                        <p>This fixed alot of the style. But like the bottom of the step and repeat wall, these walls got hit by chairs and 
+                            tables being moved around. Causing a huge amount of work to keep it all repaired and professional looking. So, 
+                            many things resolved with a couple simple steps.
+                            </p>
+                            <br>
+                        <p>Next was correcting the largest feature the venue contained. The dining room bar that sat at 40 feet long by 
+                            18 feet wide, right in the middile of the room. The scale made it impressive. But that white base and open 
+                            space between the halo of railroad ties above it made it feel, again, out of place and incomplete.
+                            </p>
+                    </div>
+                    <!-- image of bottom of dining room bar -->
+                    <div class="column double-image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_In-EngineBarUnderside_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of in-engine bottom side of dining room bar</div>
+                    </div>
+                    <!-- image of dining room bar crown -->
+                    <div class="column double-image-portion left">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_In-EngineBarCrownDecor_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of in-engine dining room bar crown</div>
+                    </div>
+                    <div class="project-text">
+                        <p>The 2 images above show the update base color to be a few shades darker than the dining room walls and pillar 
+                            were suggested to be. More of an middle ground between the dining room grey and the Einstein black. 
+                            </p>
+                            <br>
+                        <p>Then, in combination with a string of lights running the under side of the bar as well as the top side of the halo,
+                            adding a decorative set of iron looking rings to the cables suspending above halo the bar, broke up the negative 
+                            space between it and the ceiling, and crowned the feature every guest is immediately introduced to as they enter the venue 
+                            in an interesting way.
+                            </p>
+                    </div>
+                    <div class="column text-portion left">
+                        <p>The last remodeling update that went into the room was some other lighting pieces. For this, stylized barrel 
+                            lights my friend and co-worker Carlos and I came up with, which were barrels cut in half that had a light 
+                            element built inside. 
+                            </p>
+                            <br>
+                        <p>The opening would have been covered with a piece of white tinted plexi-glass, with the red Lucky Strike 
+                            letters embedded in it. Each one to be hung from the ceiling by decorative iron chains and rings, bringing 
+                            the room together into one clean and complete theme.
+                            </p>
+                    </div>
+                    <!-- image of dining room barrel lights-->
+                    <div class="column image-portion right">
+                        <img id="home-img" src="img/Projects/LuckyStrike_VirtualTour/LuckyStrikeVirtualTour_BarrelLighting_Fitted.png" alt="">
+                        <div class="project-caption-description">image above of in-engine dining room barrel lights</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- my contributions section: end -->
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+        <!-- status and availability section: start -->
+        <section class="project-status-availability" id="project-status-availability">
+            <div class="max-width">
+                <h2 class="title">Project status and availability</h2>
+                <div class="status-availability-block">
+                    <div>
+                        <h3 class="status-availability-text">Status</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="status-availability project-text">
+                    <p>The project went through ups and downs that caused it to stall and started many times. Until, a 
+                        temporary bad CEO that left a ripple of undesired changes came through, in combination with a 
+                        family tragedy, and of course a pandemic, stalled it out. So, it is generally in an inactive status 
+                        and remains unfinished.
+                    </p>
+                </div>
+
+                <div class="status-availability-block">
+                    <div>
+                        <h3 class="status-availability-text">Availability</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="status-availability project-text">
+                    <p>If there were the right prospects, or some larger fun reason to revisit it, the project could be pushed to 
+                        completion. For now though, all the elements that were used to create the 4 test versions are stored and 
+                        are used to tinker with every now and then.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- status and availability section: end -->
+    </div>
+    <!-- main body content at screen right: end -->
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+<!-- functionality script block: start -->
+<script src="js/script.js"></script>
+<script src="imageGallerySelection.js"></script>
+<script src="galleryClasses.js"></script>
+<!-- functionality script block: end -->
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+</body>
+<!-- !!! page end !!! -->
+</html>
